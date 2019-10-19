@@ -29,79 +29,73 @@ h1#title{
 h1{
     text-align: center; 
     font-family: Diamond, serif; 
-
+    background: grey;
 }
 h1 a:visited, a:link{
     text-decoration: none;
     color: rgb(46, 238, 46);
     background: none;
 }
+h1 a:hover, a:active{
+    background: black;
+    color: rgb(46, 238, 46);
+}
 img{
     width: 100px;
 }
 /*Div Styles*/
 .row::after{
-    display: table;
     clear: both;
     content: "";
+    display: table;
 }
-div.col-0{
-    width: 0%
+div[class^="col-"]{
+    float: left;
 }
-div.col-100{
+div#col-100{
     width: 100%;
+}
+div#col-0{
+    width:0%;
+}
+div[id^="col-"]{
+    float: right;
+}
+div{
+    outline: 1px solid red;
+}
+img{
+    width: 100px;
+}
+h3{
+    text-align: center;
+    background: grey;
+}
+h2{
+    text-align: center;
+    background: grey;
 }
 div.col-1-4{
     width: 25%;
 }
-div[class^="col-"]{
-    float: right;
+div.col-1-4 h1{
+    color: white;
+    background: none;
 }
-/*Nav Styles*/
 ul{
     padding: 0;
-}
-nav ul{
-    margin-right: auto;
-    margin-left: auto;
-}
-nav ul li{
-    text-align: center;
     list-style-type: none;
 }
-nav li a:visited, a:link{
-    
-    color: black;
-}
-nav li a:hover, a:active{
-    background: black;
-    color: rgb(46,283,46);
-}
-nav div{
-    background: rgb(46, 238, 46);
-    outline: 1px solid black;
+div li a img {
     display: block;
+    margin:auto;
+    width: 200px;
+    height: 300px;
 }
-nav div:hover, a:hover{
-    background: black;
-    color: rgb(46, 238, 46);
+div p {
+    text-align: center;
 }
-/*button styles*/
-.button {
-	color: black;
-  text-align: center;
-	font-weight: 100; 
-	padding: 10px;
-	font-family: 'Open Sans', sans-serif;
-    margin-top: 20px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.button:hover{
-	background: rgb(46, 238, 46);
-    color: white;
-}
+/*Footer Styles*/
 footer{
     text-align: center;
     background: grey;
