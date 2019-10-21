@@ -61,9 +61,9 @@ div#col-0{
 div[id^="col-"]{
     float: right;
 }
-div{
+/* div{
     outline: 1px solid red;
-}
+} */
 img{
     width: 100px;
 }
