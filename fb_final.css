@@ -87,6 +87,10 @@ nav div:hover, a:hover{
     background: black;
     color: rgb(46, 238, 46);
 }
+/*aside styles*/
+article#result{
+    text-align: center;
+}
 /*footer styles*/
 footer{
     text-align: center;
