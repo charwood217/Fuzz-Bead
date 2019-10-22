@@ -19,6 +19,10 @@ body{
     background: white;
     color: black;
 }
+body{
+    box-shadow: rgb(0,0,0) 15px 0px 15px,
+     rgb(0,0,0) -15px 0px 15px;
+}
 /*H1 Styles*/
 h1#title{
     text-align: center;
