@@ -91,6 +91,9 @@ nav div:hover, a:hover{
 article#result{
     text-align: center;
 }
+article#result ul li{
+    list-style-type: none;
+}
 /*footer styles*/
 footer{
     text-align: center;
