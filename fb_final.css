@@ -37,6 +37,10 @@ h1 a:visited, a:link{
     color: rgb(46, 238, 46);
     background: none;
 }
+h1#secret{
+    color:white;
+    background: none;
+}
 img{
     width: 100px;
 }
@@ -54,6 +58,12 @@ div.col-100{
 }
 div.col-1-4{
     width: 25%;
+}
+div.col-1-10{
+    width: 10%;
+}
+div.col-9-10{
+    width: 60%;
 }
 div[class^="col-"]{
     float: right;
@@ -90,9 +100,16 @@ nav div:hover, a:hover{
 /*aside styles*/
 article#result{
     text-align: center;
+    font-family: comic 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+article#result ul{
+    padding-left: 40px;
 }
 article#result ul li{
     list-style-type: none;
+}
+article#result div[class^="col-"]{
+    float: left;
 }
 /*footer styles*/
 footer{
