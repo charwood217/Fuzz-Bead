@@ -102,14 +102,6 @@ nav div:hover, a:hover{
     margin-left: auto;
     margin-right: auto;
 }
-.img{
-    height: 100px;
-    width: 300px;
-    margin: 20px;
-    margin-left: 543px;
-    margin-top: 50px;
-}
-
 .button:hover{
 	background: rgb(46, 238, 46);
     color: white;
