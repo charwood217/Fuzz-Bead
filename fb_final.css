@@ -115,6 +115,17 @@ article#result ul li{
 article#result div[class^="col-"]{
     float: left;
 }
+/*aside styles*/
+aside{
+    text-align: center;
+    display: block;
+    background: grey;
+    
+}
+aside a:link, a:visited{
+    text-decoration: underline;
+    color: rgb(46, 238, 46);
+}
 /*footer styles*/
 footer{
     text-align: center;
